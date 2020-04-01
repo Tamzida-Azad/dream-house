@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1281px;
+    margin: 15px 0 0 118px;
+}
+.wrapper1{
+    max-width: 1281px;
+}
+.header {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.logo {
+    float: left;
+    padding-left: 0;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    width: 31%;
+    }
+.logo .logoicon{
+    width: 120%;
+    }
+.logo .title{
+    color: #3E526D;
+    font-size: 28px;
+    letter-spacing: 3.4px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: -51px 0px 8px 55px ;
+}
+.menu {
+    margin-top: 40px;
+    width: 65%;
+    float: right;
+    }
+
+.menu ul{
+    list-style: none;
+    float: right;
+
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #3E526D;   
+    padding: 0px 36px 0 0;
+    margin: -24px 10px 10px 0px;
+    display: block; 
+     
+}
+.banner{
+    width:100%;
+    overflow: hidden;
+    background-image: url(images/home.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.border{
+    width: 30%;
+    background-color: #4a526282;
+    padding-bottom: 31px;
+    margin:36px 0px 0px 0px;
+    overflow: hidden;
+}
+.border h1{
+    font-family: sans-serif;
+    font-size: 37px;    
+    font-weight: 418;
+    line-height: 1.5;
+    color: white;
+    margin-left: 30px;
+
+}
+.border p{
+    font-family: sans-serif;
+    font-size: 20px;    
+    font-weight: 418;
+    line-height: 1.5;
+    color: white;
+    margin-left: 30px;
+}
+.border button{
+    background-color: #666666;
+    color: white;
+    padding: 8px 15px 8px 30px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-top: 22px;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 15px;
+} 
+.container{
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 62px;
+}
+.heading{
+padding: 10px 35px 10px 35px;
+margin: 0px 0px 0px 0px;
+background-color: white;
+} 
+.heading h2{
+    color: #B5AEA7;
+    font-weight: 300;
+    text-align: center;
+    background-color: white;
+} 
+.box1{
+    background-image: url("images/vila.jpg");
+    margin-left: 0;
+    margin-right: 64px;
+}
+.box2{
+    background-image: url("images/background.jpg");
+    background-position: center;
+    margin-right: 64px;
+}
+.box3{
+    background-image: url("images/home2.jpg");
+}
+.box1, .box2, .box3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 30%;
+    height: 273px;
+   }
+
+/*
+.box2{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    width: 30%;
+    height: 273px;
+    margin: 0px 52px 0px 0px;
+}
+.box3{
+    background-image: url("images/home2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    width: 30%;
+    height: 273px;
+} */
+.text1, .text2{
+    width: 30%;
+    float: left;
+    padding: 0px;
+    margin: 26px 64px 0px 0px;
+} 
+.text3{
+    width: 30%;
+    float:right;
+    padding: 0px;
+    margin-top: 26px;
+    }
+.text1 p, .text2 p{
+    font-family: sans-serif;
+    font-size: 20px;    
+    font-weight: 418;
+    text-align: center;
+    line-height: 2;
+    color: #2D476A;
+    
+}
+.text3 p{
+    font-family: sans-serif;
+    font-size: 20px;    
+    font-weight: 419;
+    text-align: center;
+    line-height: 2;
+    color: #2D476A;
+}
+.btn1, .btn2{
+    width: 20%;
+    float: left;
+    margin: 61px 0px 0px 56px;
+}
+.btn3{
+    width: 25%;
+    margin: 61px 230px 0px 0px;
+    float: right;
+}
+.btn1 button, .btn2 button, .btn3 button{
+    background: #2D476A;
+    color: white;
+    padding: 8px 15px 8px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 83px;
+    transition: .5s;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+ button:hover{
+    background-color: #1b5194;
+}
+.footer{    
+    padding: 39px;
+}
+.footer h3 {
+    font-family: sans-serif;
+    font-size: 15px;    
+    font-weight: 400;
+    text-align: center;
+    line-height: 2;
+    color: #2D476A;
+ }
+.footer h4{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 2;
+    color: #2D476A;
+}
+.media_icon{
+    width: 30%;
+    padding-bottom: 20px;
+    margin-left: 526px;
+}
